@@ -27,5 +27,6 @@ else if(mark>=70 && mark<=74){
 else{
 	printf("Please give input between 0-100");
 }
+	
 return 0;
 }
