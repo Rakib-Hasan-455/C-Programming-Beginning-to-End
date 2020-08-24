@@ -7,3 +7,4 @@ printf("You have obtained %d marks",marks);
 marks<=50 ? (grade='F' )&&( printf(" and your grade is %c\n",grade)):(grade='P' )&& (printf(" and your grade is %c\n",grade));
 return 0;
 }
+ 
