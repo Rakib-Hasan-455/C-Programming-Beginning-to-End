@@ -1,19 +1,31 @@
-#include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
-
-int main()
-{
-	int a,b,c,d;
-    float A,B,C,D;
-    scanf("%d%d",&a,&b);
-    c=a+b;
-    d=a-b;
-    printf("%d %d\n",c,d);
-scanf("%f%f",&A,&B);
-    C=A+B;
-    D=A-B;
-    printf("%.1f %.1f",C,D);
-    return 0;
+#include<stdio.h>
+int main(){
+int value1,value2;
+printf("\tPlease give two integer value.\n");
+//Taking value of two integer
+printf("\t\tValue1=");
+scanf("%d",&value1);
+printf("\t\tValue2=");
+scanf("%d",&value2);
+//addition
+printf("\n\tAddition=value1+value2\n");
+printf("\t\t=%d+%d\n",value1,value2);
+printf("\t\t=%d\n",value1+value2);
+//Subtraction
+printf("\n\tSubtraction=value1-value2\n");
+printf("\t\t =%d-%d\n",value1,value2);
+printf("\t\t =%d\n",value1-value2);
+//Multiplication
+printf("\n\tMultiplication=value1*value2\n");
+printf("\t\t =%d*%d\n",value1,value2);
+printf("\t\t =%d\n",value1*value2);
+//Division
+printf("\n\tDivision=value1/value2\n");
+printf("\t\t=%d/%d\n",value1,value2);
+printf("\t\t=%d\n",value1/value2);
+//Modulus
+printf("\n\tModulus=value1%%value2\n");
+printf("\t\t=%d %% %d\n",value1,value2);
+printf("\t\t=%d\n",value1%value2);
+return 0;
 }
