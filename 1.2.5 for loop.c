@@ -55,7 +55,7 @@ int main(){
 			printf(" %c", column+64);
 		}
 		printf("\n");
-	}
+	} 
 return 0;
 }
 
