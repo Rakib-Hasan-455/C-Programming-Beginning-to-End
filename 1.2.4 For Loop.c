@@ -30,3 +30,4 @@ printf("%d\n",initial);
 return 0;
 }
 */
+ 
