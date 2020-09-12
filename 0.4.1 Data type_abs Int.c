@@ -12,6 +12,7 @@ int main(){
 	printf("What's the current year?\n=");
 	scanf(" %d",&CurrentYear);
 	int age=abs(BirthYear-CurrentYear);
+	//Use fabs to find absolute value of float value
 	printf("Your age is %d \n",age);
 	return 0;
 }
