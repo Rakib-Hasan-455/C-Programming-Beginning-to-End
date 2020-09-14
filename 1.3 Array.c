@@ -19,3 +19,4 @@ printf("Average of %d elements=%.2f",elements,average);
 			return 0;
 	
 	}
+ 
