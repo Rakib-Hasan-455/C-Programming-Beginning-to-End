@@ -3,8 +3,11 @@
 #include<ctype.h>
 #include<string.h>
 #include<math.h>
+#include<time.h> //making random number on each run
 int main(){
 	int i;
+	time_t t;
+	srand((unsigned)time(&t)); //making random number on each run
 	while(1){
 		int n;
 		scanf(" %d",&n);
