@@ -7,12 +7,12 @@
 int main(){
 	int i;
 	time_t t;
-	srand((unsigned)time(&t)); //making random number on each run
+	srand(time(NULL)); //making random number on each run
 	while(1){
 		int n;
 		scanf(" %d",&n);
 	for(i=1;i<n;i++){
 	printf("Generated random number= %d \n",rand());
-		}
+			}
 		}return 0;
 }
