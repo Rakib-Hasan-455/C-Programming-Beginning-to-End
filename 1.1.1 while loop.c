@@ -17,3 +17,26 @@ int main(){
 }
 	
 	
+/* My stupid logic
+#include<stdio.h>
+#include<string.h>
+int main(){
+int num=1788731852;
+printf("%d",num%10);
+int temp=num;
+int mirror1=0;
+int mirror2=0;
+int print;
+while(temp){
+mirror1=temp/10;
+mirror2=(mirror1)%10;
+print=mirror2;
+temp=mirror1;
+if(print==0)
+break;
+printf("%d",print); 
+
+}
+return 0;
+}
+*/
